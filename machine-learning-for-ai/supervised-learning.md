@@ -27,5 +27,4 @@ Supervised learning algorithms map input variables ($X$) to an output variable (
 *   **F1-Score:** Harmonic mean of Precision and Recall. $2 \times \frac{Precision \times Recall}{Precision + Recall}$
 *   **ROC-AUC:** Measures the model's ability to distinguish between classes across all classification thresholds.
 
-
-*   *©️ Created by Wecncode Developer Community!* 
+*©️ Created by Wecncode Developer Community!* 
