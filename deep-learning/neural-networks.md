@@ -20,7 +20,7 @@
 ## 3. Optimizers
 
 *   **Stochastic Gradient Descent (SGD):** Updates weights using a single training example or small batch.
-    $$w = w - \alpha \frac{\partial L}{\partial w}$$ *(where $\alpha$ is the learning rate)*
+    $$w = w - \alpha \frac{\partial L}{\partial w}$$ *(where alpha is the learning rate)*
 *   **Adam (Adaptive Moment Estimation):** Combines the advantages of AdaGrad and RMSProp. Adapts learning rates for each parameter based on first and second moments of the gradients. Industry standard for most DL tasks.
 
 ## 4. Mitigating Overfitting
