@@ -1,6 +1,6 @@
 # AI Fundamentals & Algorithm Cheatsheets
 
-An open-source repository of minimalist, high-yield reference guides covering Data Science, Machine Learning, Deep Learning, and Generative AI. 
+An open-source repository of cheatsheets, high-yield reference guides covering Data Science, Machine Learning, Deep Learning, and Generative AI. 
 
 These cheatsheets are structured with a focus on rigorous pedagogical methodology, designed to democratize technical education and streamline complex AI concepts into accessible, practical blueprints. The formatting is intentionally minimalist—optimized for plain white backgrounds, high readability, and clean export to PDF guidebooks for technical instruction.
 
