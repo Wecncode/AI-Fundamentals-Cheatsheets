@@ -4,7 +4,7 @@ An open-source repository of cheatsheets, high-yield reference guides covering D
 
 These cheatsheets are structured with a focus on rigorous pedagogical methodology, designed to democratize technical education and streamline complex AI concepts into accessible, practical blueprints. The formatting is intentionally minimalist—optimized for plain white backgrounds, high readability, and clean export to PDF guidebooks for technical instruction.
 
-![AI Fundamentals Cheatsheet Architecture](./assets/images/AI Notes.png)
+![AI Fundamentals Cheatsheet Architecture](./assets/images/ai-notes.png)
 
 ## 📂 Repository Architecture
 
