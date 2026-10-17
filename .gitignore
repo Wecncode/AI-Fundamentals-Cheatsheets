@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local deep-learning environment
+.venv-dl/
+
+# Generated model artifacts
+*.keras
+
+# Generated experiment outputs
+cat_predicted_as_dog.png
+misclassified_images.png
+single_misclassified_image.png
+ship_misclassification_review.png
+gradcam_ship_errors.png
+confusion_matrix_full.png
+cnn_training_accuracy.png
+cnn_training_loss.png
+deeper_cnn_accuracy.png
+mobilenetv2_accuracy*.png
+mobilenetv2_cutmix_accuracy.png
+mobilenetv2_finetuning_accuracy.png
+mobilenetv2_finetuning_augmented_accuracy.png
+model_comparison.png
+model_comparison.csv
+kmeans_elbow.png
+tsne_visualization.png
+umap_visualization.png
