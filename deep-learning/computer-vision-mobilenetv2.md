@@ -1,4 +1,4 @@
-# Computer Vision with MobileNetV2
+# Computer Vision
 
 ## 1. What Is Computer Vision?
 
@@ -23,11 +23,13 @@ CIFAR-10 is a benchmark dataset containing 60,000 colour images divided into 10 
 
 The standard split contains 50,000 training images and 10,000 test images. Each original image has dimensions of 32 × 32 pixels with three colour channels.
 
-## 3. Transfer Learning
+## 3. MobileNetV2
 
+MobileNetV2 is a convolutional neural network designed for efficient image classification and feature extraction. It uses inverted residual blocks and linear bottlenecks to reduce computational cost.
+
+## 4. Transfer Learning
 Transfer learning reuses knowledge learned by a model on a large dataset to help solve another task.
 
-MobileNetV2 is a convolutional neural network designed for efficient image feature extraction. It uses inverted residual blocks and linear bottlenecks to reduce computational cost.
 
 A typical transfer-learning workflow is:
 
@@ -39,7 +41,7 @@ A typical transfer-learning workflow is:
 6. Evaluate the resulting model on unseen test data.
 
 
-## 4. Image Preprocessing
+## 5. Image Preprocessing
 
 The input images must match the model's expected input format.
 
@@ -63,7 +65,7 @@ The variable `image` represents an image tensor. The same preprocessing must be 
 
 Resizing changes the spatial dimensions but does not add new visual information to the original image.
 
-## 5. Model Evaluation
+## 6. Model Evaluation
 
 Accuracy measures the proportion of predictions that are correct.
 
@@ -79,7 +81,7 @@ Here, TP means true positives, FP means false positives, and FN means false nega
 
 A confusion matrix shows which actual classes are being predicted as other classes. Per-class metrics are important because overall accuracy can hide weaknesses affecting particular categories.
 
-## 6. Case Study: MobileNetV2 on CIFAR-10
+## 7. Case Study: MobileNetV2 on CIFAR-10
 
 Two models were evaluated on the same 10,000-image CIFAR-10 test set.
 
@@ -101,7 +103,7 @@ CutMix reduced Dog-to-Cat errors but increased Cat-to-Dog errors. This illustrat
 
 These results apply to this particular training setup and test set. They do not establish that CutMix will perform worse on every dataset or model.
 
-## 7. Data Augmentation
+## 8. Data Augmentation
 
 Data augmentation creates modified training examples to help a model generalize. Common methods include:
 
@@ -114,7 +116,7 @@ Data augmentation creates modified training examples to help a model generalize.
 
 Augmentation should be selected and tuned using training and validation data. Final model selection should consider held-out test performance and per-class metrics.
 
-## 8. Practical Lessons
+## 9. Practical Lessons
 
 1. Establish a baseline before testing improvements.
 2. Keep preprocessing consistent across all evaluation stages.
@@ -125,6 +127,6 @@ Augmentation should be selected and tuned using training and validation data. Fi
 7. Record hyperparameters, dataset splits, random seeds, and software versions to improve reproducibility.
 8. Treat model confidence as a score unless probability calibration has been assessed.
 
-## 9. Conclusion
+## 10. Conclusion
 
 MobileNetV2 provides a practical starting point for transfer learning in image classification. The CIFAR-10 case study demonstrates the importance of comparing experimental changes against a baseline and examining class-specific errors before adopting a new training technique.
